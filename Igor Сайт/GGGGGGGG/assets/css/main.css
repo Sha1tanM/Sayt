@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Montserrat";
+	scr: url("../fonts/Montserrat-Bold.ttf")
+	font-weight:700;
+}
+@font-face {
+    font-family: "Montserrat";
+	scr: url("../fonts/Montserrat-Regular.ttf")
+	font-weight:400;
+}
+@font-face {
+    font-family: "Lora";
+	scr: url("../fonts/Lora-Regular.ttf")
+	font-weight:400;
+}
+*{
+   box-sizing: border-box;
+}
+body {
+margin:0;
+font-family: Montserrat;
+}
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+section {
+  padding: 90px 0;
+}
+.first-screen {
+  height: 100vh;
+  clip-path: ellipse(100% 60% at 50% 35%);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.section-bg {
+  background: url(../img/bg.jpg);
+  color: #fff;
+}
+h1 {
+  font-family: Lora;
+  font-size: 80px;
+}
+.btn {
+  padding: 13px 20px;
+  color: #fff;
+  border: 2px solid transparent;
+  text-decoration: none;
+  font-weight: 700;
+}
+.btn-bg {
+  background: #c74838;
+}
+.btn-outline {
+  border-color: #c74838;
+}
